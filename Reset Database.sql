@@ -17,6 +17,6 @@ CREATE DATABASE DB_Name;
 
 USE DB_Name;
 
-EXEC sp_changedbowner 'dapen';
+EXEC sp_changedbowner 'userDB';
 
 USE master;
