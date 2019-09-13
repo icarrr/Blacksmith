@@ -1,4 +1,4 @@
-echo off
+@echo off
 echo "Start Backup Database"
-sqlcmd -S hostname -i "C:\Users\DSS\Downloads\Scheduler\backup.sql"
+sqlcmd -S .\InstanceName,1433 -i "C:\Users\DSS\Downloads\Scheduler\backup.sql"
 exit
